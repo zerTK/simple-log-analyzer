@@ -1,0 +1,8 @@
+192.168.1.10 - - [11/Jun/2025:10:00:01 +0000] "GET /index.html HTTP/1.1" 200 1024
+192.168.1.11 - - [11/Jun/2025:10:00:05 +0000] "GET /images/logo.png HTTP/1.1" 200 512
+192.168.1.12 - - [11/Jun/2025:10:00:10 +0000] "POST /admin/login HTTP/1.1" 401 150 - "Failed password for user 'admin'"
+192.168.1.10 - - [11/Jun/2025:10:00:15 +0000] "GET /about.html HTTP/1.1" 200 700
+192.168.1.12 - - [11/Jun/2025:10:00:20 +0000] "POST /admin/login HTTP/1.1" 401 150 - "Invalid username 'testuser'"
+192.168.1.13 - - [11/Jun/2025:10:00:25 +0000] "GET /products HTTP/1.1" 200 2048
+192.168.1.12 - - [11/Jun/2025:10:00:30 +0000] "POST /admin/login HTTP/1.1" 401 150 - "Authentication required"
+192.168.1.14 - - [11/Jun/2025:10:00:35 +0000] "GET /contact.html HTTP/1.1" 200 800
