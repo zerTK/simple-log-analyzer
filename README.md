@@ -6,10 +6,10 @@ A simple Python script to parse web server access logs and extract only security
  - Basic Scripting: Automating security checks through script in Python.
  - Vulnerability Detection: Determining possible attempts of unauthorized access (e.g. failed logins).
 
- ## Usage
+ Usage
  The log_analyzer. py script parses the given log file (access. log by default)
 
- ## Contents of this Repository
+ Contents of this Repository
  - log_analyzer. py: Primary Python script.
  - access. log: An example log file which can be used to demo and test.
 
